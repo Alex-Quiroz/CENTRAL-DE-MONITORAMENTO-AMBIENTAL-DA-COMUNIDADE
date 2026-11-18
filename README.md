@@ -1,7 +1,7 @@
 # CENTRAL-DE-MONITORAMENTO-AMBIENTAL-DA-COMUNIDADE
 
 # Integrantes
-Alexander Josue Quiroz Cocarico
+Alexander Josue Quiroz Cocarico    RM: 571948
 
 # Ambiente escolhido
 O ambiente monitorado é uma escola, com foco em salas de aula, onde o conforto térmico, a qualidade do ar e o nível de ruído influenciam diretamente a saúde, a concentração e o aprendizado dos estudantes e o trabalho dos professores.
@@ -32,3 +32,16 @@ Justificativa: Para o ambiente interno de uma escola no Brasil, o limite legal d
 Limite adotado: 40 dB
 Fonte de referência: ABNT NBR 10152:2017
 Justificativa: Conforme os parâmetros de referência estabelecidos pela ABNT NBR 10152:2017 e pelas diretrizes da Organização Mundial da Saúde (OMS), o ruído de fundo em salas de aula deve situar-se entre 35 dB e 40 dB
+
+# Instruções para executar o programa
+1. Salve o código em um arquivo, por exemplo monitoramento.py
+2. Abra o terminal na pasta do arquivo.
+3. Execute: python monitoramento.py
+4. Siga as instruções na tela:
+* Informe a quantidade de leituras (deve ser maior que zero);<br>
+* Para cada leitura, informe temperatura (°C), PM2.5 (µg/m³) e ruído (dB);<br>
+* Ao final, o programa exibe os resultados e gera o relatório;<br>
+* Responda S para iniciar uma nova sequência ou N para encerrar.
+
+# Saida
+O relatório é salvo na pasta de execução, com o nome relatorio_escola.txt. Ele contém: identificação do ambiente, quantidade de leituras, limites e unidades, média/mínimo/máximo, ocorrências críticas por parâmetro, quantidade e percentual de leituras críticas, classificação geral e a observação de que se trata de uma simulação.
