@@ -12,7 +12,7 @@ dados = {
     "PM25": [],
     "Ruido": []
 }
-
+  
 # Função para calcular a média, minimo e máximo
 def calcular_estatisticas(valores):
     menor = min(valores)
@@ -34,7 +34,7 @@ while True:
     for i in range(quant_leituras):
         print("\nLeitura", i + 1)
         temperatura = float(input("Digite a temperatura (°C): "))
-        pm = float(input("Digite o valor de PM (µg/m³): "))
+        pm = float(input("Digite o valor de PM2.5 - média de 24 horas (µg/m³): "))
         ruido = float(input("Digite o nível de ruído (dB): "))
         print("\n")
 
@@ -47,7 +47,7 @@ while True:
             print("ALERTA: Valor de PM2,5 acima do limite!")
             alerta = True
         if ruido > RUIDO_LIMITE:
-            print("ALERTA: Nível de ruído acima do limite!")
+            print("ALERTA: Nível de ruído adcima do limite!")
             alerta = True
 
         if alerta:
@@ -138,7 +138,7 @@ while True:
 
     linhas.append("\nLimites de referência e unidades:")
     linhas.append(f"  - Temperatura: {TEMP_MINLIMITE} a {TEMP_MAXLIMITE} °C")
-    linhas.append(f"  - PM2,5: até {PM_LIMITE} µg/m³")
+    linhas.append(f"  - PM2.5: até {PM_LIMITE} µg/m³ (média de 24 h; cada leitura representa a média de 24 h)")
     linhas.append(f"  - Ruído: até {RUIDO_LIMITE} dB")
 
     linhas.append("\nMédia, mínimo e máximo:")

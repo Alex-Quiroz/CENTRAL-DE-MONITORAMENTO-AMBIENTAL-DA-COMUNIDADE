@@ -1,0 +1,39 @@
+=========================================
+RELATÓRIO DE MONITORAMENTO AMBIENTAL
+=========================================
+Ambiente monitorado: Escola
+Quantidade de leituras: 1
+
+Limites de referência e unidades:
+  - Temperatura: 18.0 a 25.0 °C
+  - PM2.5: até 25.0 µg/m³ (média de 24 h; cada leitura representa a média de 24 h)
+  - Ruído: até 40.0 dB
+
+Média, mínimo e máximo:
+Temperatura:
+  - Mínimo: 22.0 °C
+  - Máximo: 22.0 °C
+  - Média: 22.00 °C
+PM25:
+  - Mínimo: 10.0 µg/m³
+  - Máximo: 10.0 µg/m³
+  - Média: 10.00 µg/m³
+Ruido:
+  - Mínimo: 30.0 dB
+  - Máximo: 30.0 dB
+  - Média: 30.00 dB
+
+Ocorrências críticas por parâmetro:
+  - Temperatura: 0
+  - PM25: 0
+  - Ruido: 0
+
+Leituras com pelo menos um parâmetro crítico:
+  - Quantidade: 0
+  - Percentual: 0.00%
+
+Classificação geral:
+  Frequência de ocorrências dentro do critério estabelecido para a simulação
+
+Observação: este resultado se refere a uma simulação baseada nos critérios adotados.
+=========================================
